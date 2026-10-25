@@ -45,33 +45,31 @@ ob_start();
                     <label for="brand" class="form-label">Brand <span class="text-danger" aria-hidden="true">*</span></label>
                     <select name="product_brand" id="brand" class="form-select" required>
                         <option value="">Select Brand</option>
-                        <option value="Cervelo">Cervelo</option>
-                        <option value="Geometric">Geometric</option>
-                        <option value="Tecc">Tecc</option>
-                        <option value="Nosh">Nosh</option>
+                        <option value="P001">Elemis</option>
+                        <option value="P002">Bodecare</option>
+                        <option value="P003">Daily Concepts</option>
+                        <option value="P004">EcoTools</option>
+                        <option value="P005">Goop</option>
                     </select>
                 </div>
  
                 <div class="col-md-3">
-                    <label for="product_condition" class="form-label">Condition <span class="text-danger" aria-hidden="true">*</span></label>
+                    <label for="product_condition" class="form-label">Bristle Type <span class="text-danger" aria-hidden="true">*</span></label>
                     <select name="product_condition" id="product_condition" class="form-select" required>
-                        <option value="">Select Condition</option>
-                        <option value="New">New</option>
-                        <option value="Used">Used</option>
+                        <option value="">Select Bristle Type</option>
+                        <option value="Soft">Soft</option>
+                        <option value="Medium">Medium</option>
+                        <option value="Hard">Hard</option>
                     </select>
                 </div>
  
                 <div class="col-md-3">
-                    <label for="year" class="form-label">Manufacturing Year <span class="text-danger" aria-hidden="true">*</span></label>
+                    <label for="year" class="form-label">Handle Material <span class="text-danger" aria-hidden="true">*</span></label>
                     <select name="product_year" id="year" class="form-select" required>
-                        <option value="">Select Year</option>
-                        <option value="2020">2020</option>
-                        <option value="2021">2021</option>
-                        <option value="2022">2022</option>
-                        <option value="2023">2023</option>
-                        <option value="2024">2024</option>
-                        <option value="2025">2025</option>
-                        <option value="2026">2026</option>
+                        <option value="">Select Handle Material</option>
+                        <option value="Bamboo">Bamboo</option>
+                        <option value="Wood">Wood</option>
+                        <option value="Plastic">Plastic</option>
                     </select>
                 </div>
                  
@@ -131,9 +129,9 @@ ob_start();
                 <tbody>
                     <tr>
                         <td>P001</td>
-                        <td>Road Bike</td>
-                        <td>$1,200.00</td>
-                        <td>Cervelo</td>
+                        <td>Natural Boar Bristle Body Brush</td>
+                        <td>RM80.00</td>
+                        <td>Bodecare</td>
                         <td>
                             <a href="#" class="btn btn-sm btn-warning">
                                 <i class="bi bi-pencil"></i>
@@ -158,3 +156,4 @@ ob_start();
 <?php
 $content = ob_get_clean();
 require_once 'layout.php';
+?>

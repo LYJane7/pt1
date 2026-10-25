@@ -11,7 +11,7 @@ ob_start();
  
 <div class="card shadow-sm mb-4">
     <div class="card-body">
- 
+        <!-- Form Header -->
         <div class="row g-0 align-items-center mb-3">
             <div class="col">
                 <h5 class="mb-0">
@@ -24,7 +24,7 @@ ob_start();
                 <span class="badge bg-primary">* Required fields</span>
             </div>
         </div>
-         
+ 
         <hr>
  
         <form action="" method="post" class="needs-validation" novalidate>
@@ -98,7 +98,7 @@ ob_start();
         </form>
     </div>
 </div>
-
+ 
 <div class="card shadow-sm">
     <div class="card-body">
   
@@ -154,7 +154,8 @@ ob_start();
         </div>
     </div>
 </div>
-
+ 
 <?php
 $content = ob_get_clean();
 require_once 'layout.php';
+?>
