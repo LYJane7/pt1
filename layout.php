@@ -1,4 +1,8 @@
-     <div class="col bg-light">
+<?php require_once 'header.php'; ?>
+ 
+<?php require_once 'sidebar.php'; ?>
+ 
+      <div class="col bg-light">
         <!-- Mobile Header with Burger -->
         <div id="myBurger" class="p-3 d-lg-none text-white bg-dark">
           <div class="row">
@@ -9,6 +13,8 @@
         </div>
          
         <div class="p-4">
-          Put content here.
+            <?= $content ?? '' ?>        
         </div>
       </div>
+
+<?php require_once 'footer.php'; ?>
