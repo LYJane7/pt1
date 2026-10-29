@@ -13,14 +13,15 @@
               <a href="home.php" class="text-decoration-none text-white">
                 <i class="bi bi-house-fill me-2"></i>
                 Home
-              </a>
+               </a>
             </li>
             <li class="nav-item mb-3">
-              <a href="dashboard.php" class="text-decoration-none text-white">
+              <a href="" class="text-decoration-none text-white">
                 <i class="bi bi-bar-chart-line-fill me-2"></i>
                 Dashboard
               </a>
             </li>
+            <!-- Add more menus -->
             <li class="nav-item mb-3">
               <a href="products.php" class="text-decoration-none text-white">
                 <i class="bi bi-box-seam-fill me-2"></i>
