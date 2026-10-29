@@ -17,7 +17,7 @@ ob_start();
                     <i class="bi bi-pencil-square text-primary me-2"></i>
                     Customer Form
                 </h5>
-                <small class="text-muted">Fill in the details of customer members</small>
+                <small class="text-muted">Fill in the details of a customer </small>
             </div>
             <div class="col-auto">
                 <span class="badge bg-primary">* Required fields</span>
@@ -102,7 +102,7 @@ ob_start();
                         </td>
                     </tr>
                     <tr>
-                        <td colspan="" class="text-center">No customers found</td>
+                        <td colspan="6" class="text-center">No customers found</td>
                     </tr>
 
                 </tbody>

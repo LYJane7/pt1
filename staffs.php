@@ -54,7 +54,19 @@ ob_start();
 
 <div class="card shadow-sm">
     <div class="card-body">
-        <h5 class="mb-3"><i class="bi bi-person-lines-fill text-primary me-2"></i>Staff List</h5>
+ <div class="row align-items-center mb-3">
+            <div class="col">
+                <h5 class="mb-0">
+                    <i class="bi bi-table text-primary me-2"></i>
+                    Staff List
+                </h5>
+                <small class="text-muted">View and manage all staff members</small>
+            </div>
+            <div class="col-auto">
+                <span class="badge bg-success">Total: 1 items</span>
+            </div>
+        </div>
+
         <hr>
         <div class="table-responsive">
             <table class="table table-striped table-hover">
